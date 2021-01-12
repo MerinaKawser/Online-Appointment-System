@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment</title>
+    <link rel="stylesheet" href="asset/style.css">
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Bootstrap css file -->
+
+    <style>
+        .backHead{
+            width:80%;
+            height:auto;
+            background-color: rgb(0,0,0); /* Fallback color */
+	        background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+            color: white;
+            text-align: center;
+            z-index: 2;
+            position: absolute;
+            top:10%;
+            left:0;
+            right:0;
+            padding: 30px;
+        }
+        .backBody{
+            float:left;
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+			color: white;
+			height:auto;
+			position: absolute;
+			top: 60%;
+			left: 28%;
+			transform: translate(-50%, -50%);
+			z-index: 2;
+			width: 33.3%;
+			text-align: center;
+			padding: 45px;
+			font-size:1.2em;
+        }
+
+        .body-contact{
+						
+						background-color: rgb(0,0,0); /* Fallback color */
+						background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+						color: white;
+						height:auto;
+						position: absolute;
+						top: 60%;
+						left: 70%;
+						transform: translate(-50%, -50%);
+						z-index: 2;
+						width: 33.3%;
+						text-align: center;
+						padding: 20px;
+						font-size:1.2em;
+						}
+    </style>
+</head>
+<body>
+    <section>
+        <!--Blog  Header Design ## START ## -->
+        <div class="container backHead">
+            <h1> CONTACT US</h1>
+        </div>
+        <!--Blog  Header Design ## END ## -->
+
+       <!-- Blog body design ## start ##-->
+
+        <div class="container backBody">
+            <h2 style="font-weight: bold;">Find US</h2>
+				<div style="font-size:1.5em;">
+					<i class="fa fa-map-marker" style="width:30px"></i>Dhaka, Bangladesh<br><br>
+					<i class="fa fa-phone" style="width:30px"></i> Phone: +088......<br><br>
+					<i class="fa fa-envelope" style="width:30px"> </i> Email:  admin@gmail.com<br><br>
+				</div>
+       </div>
+
+       <div>
+        <div class="body-contact">
+            <div>
+                <h2 style="font-weight: bold;">If you want to know anythings from us ? Please Drop a note here !</h2>
+                <form action = "index.php" method="POST" >
+                    
+                    <input  type="email" placeholder="Email/Gmail" required name="gmail">
+                    <input type="text" placeholder="Name" required name="name">
+                    <input  type="text" placeholder="Message" required name="text">
+           
+                    <input type ="submit"  name="submit" value="Send MESSAGE"> 
+
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    
+
+       <!-- Blog  body design ## end ##-->
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Bootstrap JS file -->  
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <!-- Bootstrap JS file -->   
+</body>
+</html>

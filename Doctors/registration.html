@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment</title>
+    <link rel="stylesheet" href="../asset/style.css">
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Bootstrap css file -->
+
+    <style>
+        .backHead{
+            width:70%;
+            height:auto;
+            background-color: rgb(0,0,0); /* Fallback color */
+	        background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+            color: white;
+            text-align: center;
+            z-index: 2;
+            position: absolute;
+            top:10%;
+            left:0;
+            right:0;
+            padding: 30px;
+        }
+        .backBody{
+            width:70%;
+            height:auto;
+            background-color: rgb(0,0,0); /* Fallback color */
+	        background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+            color: white;
+            text-align: center;
+            z-index: 2;
+            position: absolute;
+            top:30%;
+            left:0;
+            right:0;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+       <!-- Registartion design ## start ##-->
+		<div class="container backHead">
+            <h1>Create an Account</h1>
+        </div>
+        <div class="container backBody">
+            
+            <form action="#">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Your First Name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Your Last Name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email..">
+
+                <label for="contact">Contact</label>
+                <input type="text" id="contact" name="contact" placeholder="Your Contact..">
+
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="Your Address..">
+
+                <label for="DOB">Date of Birth</label>
+                <input type="date" id="DOB" name="DOB" placeholder="Your Date of Birth..">
+
+                <label for="gender">Gender</label>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" checked>Male</label>
+                 </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Female</label>
+                </div>
+
+                <label for="specialist">Specialist</label>
+                <input type="text" id="specialist" name="specialist" placeholder="Your Specialism..">
+
+                <label for="qualification">Qualification</label>
+                <input type="text" id="qualification" name="qualification" placeholder="Your Qualification..">
+
+                <label for="clinic">Clinic Address</label>
+                <input type="text" id="clinic" name="clinic" placeholder="Your Clinic Address..">
+
+                <label for="BMDC">BMDC Registration Number</label>
+                <input type="text" id="BMDC" name="BMDC" placeholder="Your BMDC Registration Number..">
+                  
+        
+                <label for="password">Create New Password</label>
+                <input type="text" id="password" name="password" placeholder="Your Password..">
+
+                <input type="submit" value="Submit">
+            </form>
+            <div class="reg">
+                <p>Already a Member? <a href="login.html">Login</a></p>
+            </div>
+            <div class="backHome">
+                <a href="../index.html">Back To Home Page</a>
+            </div>
+       </div>
+
+       <!-- Registartion  design ## end ##-->
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Bootstrap JS file -->  
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <!-- Bootstrap JS file -->   
+</body>
+</html>

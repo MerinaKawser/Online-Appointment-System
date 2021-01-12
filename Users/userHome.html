@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment</title>
+    <link rel="stylesheet" href="../asset/style.css">
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Bootstrap css file -->
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <style>
+      .backBody{
+          width:70%;
+          height:auto;
+          background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+          color: white;
+          text-align: center;
+          z-index: 2;
+          position: absolute;
+          top:30%;
+          left:0;
+          right:0;
+          padding: 30px;
+      }
+	  .backText{
+		font-size:1.5em;
+		font-family: 'Open Sans', sans-serif;
+	  }
+  </style>
+</head>
+<body>
+  <section>
+    <!--navigation ## start ## -->
+    <div >
+        <nav class="navbar navbar-inverse insideNav">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="drpDown "><a href="profile.html">Profile</a></li>
+                    <li class="drpDown "><a href="bookingApp.html">Booking Appointment</a></li>
+                    <li class="drpDown "><a href="myApp.html">My Appointments</a></li>
+                    <li class="drpDown "><a href="notification.html"> Notification <span style="font-size: 15px;" class="badge">5</span> </a></li>
+                    <li>
+                      <form class="navbar-form navbar-left" action="#">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search...........">
+                          
+                        </div>
+                      </form>
+                    </li>
+                    <li class="drpDown "><a href="login.html">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+   <!--navigation ## end ## -->
+
+   <!-- User home page design ## start ##-->
+   <div class="container backBody backText">
+      <p>You can see</p>
+      <p>Your Profile, Appointment Schedule, Your Appointments</p>
+   </div>
+   <!-- User home page design ## end ##-->
+</section>
+    
+
+
+
+
+
+
+
+
+
+
+ <!-- Bootstrap JS file -->  
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <!-- Bootstrap JS file -->   
+</body>
+</html>

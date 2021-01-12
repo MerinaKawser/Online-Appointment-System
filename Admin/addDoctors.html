@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Doctors</title>
+    <link rel="stylesheet" href="../asset/style.css">
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Bootstrap css file -->
+
+    <style>
+        .backHead{
+            width:70%;
+            height:auto;
+            background-color: rgb(0,0,0); /* Fallback color */
+	        background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+            color: white;
+            text-align: center;
+            z-index: 2;
+            position: absolute;
+            top:10%;
+            left:0;
+            right:0;
+            padding: 30px;
+        }
+        .backBody{
+            width:70%;
+            height:auto;
+            background-color: rgb(0,0,0); /* Fallback color */
+	        background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+            color: white;
+            text-align: center;
+            z-index: 2;
+            position: absolute;
+            top:30%;
+            left:0;
+            right:0;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        
+       <!-- Doctors Add design ## start ##-->
+		<div class="container backHead">
+            <h1>Add Doctors</h1>
+        </div>
+        <div class="container backBody">
+            
+            <form action="adminHome.html">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Your First Name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Your Last Name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email..">
+
+                <label for="quali">Qualification</label>
+                <input type="text" id="quali" name="quali" placeholder="Your Qualification..">
+        
+                <label for="password">Create New Password</label>
+                <input type="text" id="password" name="password" placeholder="Create New Password..">
+
+                <input type="submit" value="Submit">
+            </form>
+            <div class="backHome">
+                <a href="adminHome.html">Back</a>
+            </div>
+       </div>
+
+       <!-- Doctors Add  design ## end ##-->
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Bootstrap JS file -->  
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <!-- Bootstrap JS file -->   
+</body>
+</html>
